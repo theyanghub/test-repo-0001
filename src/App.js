@@ -12,7 +12,7 @@ function App() {
   
   return (
     <div className="App">
-      <header className="App-header">Your personal information</header>
+      <header className="App-header">Your personal information:</header>
         <form>
           <input type="text" label="name" placeholder="name" onChange={e => setPersonalInformation({...personalInformation, name: e.target.value})}/>
           <input type="text" label="surname" placeholder="surname" onChange={e => setPersonalInformation({...personalInformation, surname: e.target.value})}/>
